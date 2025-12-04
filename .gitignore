@@ -29,3 +29,4 @@ dist/
 # *.csv
 # *.json
 # *.db
+.DS_Store
