@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # CSV file to store telemetry
-CSV_PATH = "telemetry.csv"
+CSV_PATH = "/Users/ahmedmajid/Desktop/Digital-Twin-for Smart-Energy-Meters/digital-twin-mvp/data/telemetry.csv"
 
 # Create CSV with headers if it doesn't exist
 if not os.path.exists(CSV_PATH):
@@ -44,7 +44,7 @@ import os
 
 # ---- existing code ----
 
-EDGE_CSV = "edge_health.csv"
+EDGE_CSV = "/Users/ahmedmajid/Desktop/Digital-Twin-for Smart-Energy-Meters/digital-twin-mvp/data/edge_health.csv"
 
 if not os.path.exists(EDGE_CSV):
     with open(EDGE_CSV, "w", newline="") as f:

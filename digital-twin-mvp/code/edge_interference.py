@@ -7,7 +7,7 @@ from datetime import datetime
 import random
 
 # Load the ML model
-model = joblib.load("/Users/ahmedmajid/Desktop/Digital-Twin-for Smart-Energy-Meters/isolation_forest_model.pkl")
+model = joblib.load("/Users/ahmedmajid/Desktop/Digital-Twin-for Smart-Energy-Meters/digital-twin-mvp/model/isolation_forest_model.pkl")
 
 # Rolling buffer to compute rolling features
 history = {
